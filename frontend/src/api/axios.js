@@ -1,7 +1,10 @@
 import axios from 'axios';
 
+// const api = axios.create({
+//   baseURL: 'http://localhost:5000/api',
+// });
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://taskflow-backend.onrender.com/api', // ← Render URL
 });
 
 // Attach JWT token to every request automatically
