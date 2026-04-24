@@ -3,9 +3,12 @@ import axios from 'axios';
 // const api = axios.create({
 //   baseURL: 'http://localhost:5000/api',
 // });
+// const api = axios.create({
+//   //baseURL: 'https://taskflow-backend.onrender.com/api', // ← Render URL
+//     baseURL: 'https://taskflow-backend-qk24.onrender.com',        
+// });
 const api = axios.create({
-  //baseURL: 'https://taskflow-backend.onrender.com/api', // ← Render URL
-    baseURL: 'https://taskflow-backend-qk24.onrender.com',        
+  baseURL: 'https://taskflow-backend-qk24.onrender.com/api',
 });
 
 // Attach JWT token to every request automatically
